@@ -1,0 +1,24 @@
+{
+  "name": "mesitterfcm",
+  "version": "1.0.0",
+  "description": "fcm for messaging and socket for chat",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apn": "^1.6.2",
+    "aws-sdk": "latest",
+    "dotenv": "^8.2.0",
+    "express": "latest",
+    "firebase-admin": "^10.0.2",
+    "mssql": "^6.3.1",
+    "request": "^2.88.2",
+    "socket.io": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "16.14.2"
+  }
+}
